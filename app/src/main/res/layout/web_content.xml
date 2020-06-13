@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnIndex"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF6262"
+            android:text="Pemahaman Seputar Indeks Masa Tubuh" />
+
+        <Button
+            android:id="@+id/btnKesehatan"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:backgroundTint="#8BC34A"
+            android:text="Menjaga Kesehatan Berat Badan Ideal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGelas"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFEB3B"
+            android:text="Manfaat minum air putih 8 gelas sehari" />
+
+        <Button
+            android:id="@+id/btnObesitas"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00BCD4"
+            android:text="Obesitas bisa menyebabkan kanker" />
+    </LinearLayout>
+</LinearLayout>
